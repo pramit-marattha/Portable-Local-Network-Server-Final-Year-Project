@@ -35,4 +35,5 @@ Tutorials links
 
 * :pypi:`virtualenvwrapper` - a useful set of scripts for creating and deleting virtual environments
 * :pypi:`pew` - provides a set of commands to manage multiple virtual environments
+  * `Coding Train tutorial <https://www.youtube.com/watch?v=nnhjvHYRsmM>`
   * `Corey Schafer tutorial <https://www.youtube.com/watch?v=N5vscPTWKOk>`
