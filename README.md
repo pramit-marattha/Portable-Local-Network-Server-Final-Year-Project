@@ -133,9 +133,27 @@ sudo apachectl stop
 sudo service apache2 stop
 ```
 
-# Required Python libraries
+### Now its time to Install Virtual environment
+### specify a directory or create one
+~~~bash 
+mkdir pramitserver_env
+cd pramitserver_env
+~~~
+~~~bash 
+pip install virtualenv
+~~~
+### Now its time to Turn on your Virtual environment
+~~~bash 
+virtualenv .
+~~~
+### Now lets activate it by typing following command
+~~~bash 
+cd Scripts 
+source activate
+~~~
+### Now Copy the app into the directory that you just created
+# Install the Required Python libraries
 #### For Bulk installation copy it and paste it inside requirements.txt file and install it as ```pip3 install -r requirements.txt```
-
 ```urllib3==1.23
 Pillow==5.2.0
 chardet==3.0.4
@@ -146,7 +164,13 @@ requests==2.19.1
 pytz==2018.5
 certifi==2018.10.15
 ```
+### ``` Or you can simply download the entire file from virtualenvironment branch of this repo ```
 
+## Now Locate manage.py
+### Type the Following Command
+~~~bash 
+python manage.py runserver 0.0.0.0:8080
+~~~
 
 
 # Slides
