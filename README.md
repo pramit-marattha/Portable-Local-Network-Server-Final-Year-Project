@@ -74,3 +74,15 @@ Product Development:“Users” Database Tables on db.Sqlite3  | Product Develop
 :--------|:-------------------------------------------------:
  ![Screenshot (80)](https://user-images.githubusercontent.com/37651620/86200110-95fd5300-bb7b-11ea-9216-4edde45555aa.png)  | ![Screenshot (81)](https://user-images.githubusercontent.com/37651620/86200112-97c71680-bb7b-11ea-8a9a-5c1c728eee33.png) 
       
+# Required Python libraries
+```urllib3==1.23
+Pillow==5.2.0
+chardet==3.0.4
+Django==2.1
+django-crispy-forms==1.7.2
+idna==2.7
+requests==2.19.1
+pytz==2018.5
+certifi==2018.10.15
+```
+
