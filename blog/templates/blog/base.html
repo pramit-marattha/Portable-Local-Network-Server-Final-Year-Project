@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="../../../media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+
+    {% if title %}
+        <title>Portable Local Network Web-Server - {{ title }}</title>
+    {% else %}
+        <title>Portable Local Network Web-Server</title>
+    {% endif %}
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-image: url('../../../media/nav_top.jpg')";>
+
+        <div class="container" >
+             <a class="logo" ;><img src="../../../media/earth.png"></a>
+            <a class="nav-item nav-link" href="#"></a>
+          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}" style="font-family:monospace ";>Portable Local Network Web-Server</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="btn btn-outline-light" href="{% url 'blog-home' %}">Home</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              {% if user.is_authenticated %}
+                <a class="btn btn-success" href="{% url 'post-create' %}">+Add Post</a>
+                <a class="nav-item nav-link" href="#"></a>
+                <a class="nav-item nav-link" href="#"></a>
+                <a class="btn btn-secondary" href="{% url 'blog-home' %}">All Post</a>
+                 <a class="nav-item nav-link" href="#"></a>
+                <a class="nav-item nav-link" href="#"></a>
+
+                <a class="btn btn-secondary" href="{% url 'profile' %}">Profile</a>
+                 <a class="nav-item nav-link" href="#"></a>
+                <a class="nav-item nav-link" href="#"></a>
+                <a class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+              {% else %}
+                <a class="btn btn-success" href="{% url 'login' %}">Login</a>
+                <a class="nav-item nav-link" href="#"></a>
+                <a class="btn btn-info" href="{% url 'register' %}">Register</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-18">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
