@@ -2,6 +2,27 @@
 
 Hundreds and thousands of web application &amp; web sites are being created every single day. In order to run or process these kinds of web-based application huge chunks of server are required, and to power these servers 24/7 huge amount of electricity is consumed. It might be possible to buy/rent certain amount of server space, but it is very expensive to buy the entire server. So, the main objective of this project is to make even more highly efficient, completely inexpensive and portable pocket size web server. 
 
+# Fully completed Product
+1            |  2 | 3
+:-------------------------------------------------:|:-------------------------------------------------:|:--------------:
+![WorkInprogress_6](https://user-images.githubusercontent.com/37651620/86207675-bedb1380-bb8e-11ea-9866-42b4ab55f2b7.png)   |  ![WorkInprogress_5](https://user-images.githubusercontent.com/37651620/86207667-bc78b980-bb8e-11ea-9495-5a2a48ffa599.png)      |  ![WorkInprogress_4](https://user-images.githubusercontent.com/37651620/86207663-baaef600-bb8e-11ea-9eb4-e71cb2933f51.png)
+
+
+4                               | 5. | 6
+:-------------------------------------------------:|:-------------------------------------------------:|:--------------:
+![WorkInprogress_3](https://user-images.githubusercontent.com/37651620/86207658-b97dc900-bb8e-11ea-975a-e2c4998ceda2.png)   | ![20200701_085801](https://user-images.githubusercontent.com/37651620/86207628-abc84380-bb8e-11ea-8db5-341999227531.jpg)   |   ![20200701_085541](https://user-images.githubusercontent.com/37651620/86207618-a79c2600-bb8e-11ea-8c85-4062bbddc867.jpg)
+
+
+7                                |  8 | 9
+:-------------------------------------------------:|:-------------------------------------------------:|:--------------:
+ ![20200701_085948](https://user-images.githubusercontent.com/37651620/86207635-aec33400-bb8e-11ea-984b-6c63a0681aa8.jpg)  |  ![20200701_085608](https://user-images.githubusercontent.com/37651620/86207625-ab2fad00-bb8e-11ea-9b62-352351f7baca.jpg)   |   ![20200701_085550](https://user-images.githubusercontent.com/37651620/86207624-a9fe8000-bb8e-11ea-8699-d3b31f02971d.jpg)
+
+
+10                              |  11 | 12
+:-------------------------------------------------:|:-------------------------------------------------:|:--------------:
+  ![workInProgress](https://user-images.githubusercontent.com/37651620/86207679-c00c4080-bb8e-11ea-9f2d-648836597ee5.png)       |  ![WorkInprogress_1](https://user-images.githubusercontent.com/37651620/86207682-c0a4d700-bb8e-11ea-9164-678c47a39cab.png) | ![WorkInprogress_2](https://user-images.githubusercontent.com/37651620/86207685-c13d6d80-bb8e-11ea-8472-aa88615680a1.png)
+
+
 # Portable local network server
 Setting up Raspberry Pi 4 to serve a Django project using Apache2.
 .
