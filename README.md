@@ -53,6 +53,37 @@ Setting up Raspberry Pi 4 to serve a Django project using Apache2.
 
 
 
+### Getting IP Address of the Pi
+
+1. Turn Raspberry Pi on and ensure microSD card is inserted that contains the Raspbian Jessie Linux Operating System 
+
+2. Connect USB Keyboard, USB Mouse, and Monitor (through HDMI)
+
+3. Connect Raspberry Pi to the Internet on your local network :
+  
+4. Open up `Terminal` and type `ifconfig`. You should see the following result:
+
+    You'll need to find this line `inet addr:`
+
+5. SSH into your Pi with `ssh pi@<ip>`:
+
+    Mac/Linux Users (non-Pi linux):
+    
+    1. Open Open Terminal
+    2. type `ssh pi@<IP>`
+    3. Accept the warning about fingerprint authenticity (if any)
+    4. The default password is `raspberry`
+    
+    
+    Windows Users:
+    
+    1. Download & Install [PuTTY](http://www.putty.org/)
+    2. Open PuTTY
+    3. type `ssh pi@<IP>` 
+    4. Accept the warning about fingerprint authenticity 
+    5. The default password is `raspberry`
+
+
 
 
 
