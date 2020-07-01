@@ -2,6 +2,60 @@
 
 Hundreds and thousands of web application &amp; web sites are being created every single day. In order to run or process these kinds of web-based application huge chunks of server are required, and to power these servers 24/7 huge amount of electricity is consumed. It might be possible to buy/rent certain amount of server space, but it is very expensive to buy the entire server. So, the main objective of this project is to make even more highly efficient, completely inexpensive and portable pocket size web server. 
 
+# Portable local network server
+Setting up Raspberry Pi 4 to serve a Django project using Apache2.
+.
+
+### Software Required for setting up the Raspberry-pi: 
+
+##### Raspberry pi Operating system-- https://www.raspberrypi.org/downloads/raspberry-pi-os/
+
+##### SD card formatter -- https://www.sdcard.org/downloads/formatter/
+
+##### Flash Rapios os in Sd card -- https://www.balena.io/etcher/
+
+
+### Setting up raspberry pi
+
+1. Total wipeout of the SD Card:
+
+    1. Download SDFormatter.
+
+    2. Install it
+
+    3. Plugin MicroSD card.
+
+    4. Open SDFormatter
+
+    5. Select that specific card
+
+    6. Select "Quick Format".
+
+    7. Click "Format"
+
+2. Download [Raspberry-pi os](https://www.raspberrypi.org/downloads/raspbian/) .
+
+    1. Once downloaded, extract/unzip downloaded contents.
+
+    2. The file is about 3 Giga bytes.
+
+3. Download and open [Etcher](https://www.balena.io/etcher/)
+
+4. Run it and select the operating system image file.
+
+5. Select the formatted SD card.
+
+6. Click **Burn** to transfer Raspbian to the microSD card. Once complete, you can safely pull the card out 
+
+7. Insert the microSD card into Raspberry Pi 
+
+8. Power on Raspberry Pi
+
+
+
+
+
+
 # Slides
 
 .                                |  Table of Content:
