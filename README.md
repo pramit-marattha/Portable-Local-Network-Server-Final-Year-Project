@@ -53,15 +53,15 @@ website Mockups                    |  Raspberry pi server mockups
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (70)](https://user-images.githubusercontent.com/37651620/86200142-a4e40580-bb7b-11ea-9d16-c0e16b61be82.png)          |  ![Screenshot (71)](https://user-images.githubusercontent.com/37651620/86200136-a31a4200-bb7b-11ea-9a20-1c1666abdf09.png)
 
-Arduino circuit diagram mockups                           |  Product Development:Front-End ”Login-page” 
+Arduino circuit diagram mockups                           | Arduino circuit diagram mockups 
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (72)](https://user-images.githubusercontent.com/37651620/86200133-a1e91500-bb7b-11ea-9856-d82481120a6b.png)   |  ![Screenshot (73)](https://user-images.githubusercontent.com/37651620/86200130-a1507e80-bb7b-11ea-964f-de97a35fe741.png)
 
-Register                              |  Home-Page 
+Product Development:Front-End ”Login-page”                             | Register   
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (74)](https://user-images.githubusercontent.com/37651620/86200123-9f86bb00-bb7b-11ea-8895-f825582cc908.png) |  ![Screenshot (75)](https://user-images.githubusercontent.com/37651620/86200120-9dbcf780-bb7b-11ea-80c1-56f4eeea9e60.png)
 
-Back End                              |  Product Development:“Users” Database Tables on db.Sqlite3  
+Home-Page                              |  Back End 
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (76)](https://user-images.githubusercontent.com/37651620/86200119-9bf33400-bb7b-11ea-8d87-1d578ff21c3c.png)   |  ![Screenshot (77)](https://user-images.githubusercontent.com/37651620/86200118-9b5a9d80-bb7b-11ea-9471-0e99f87372c2.png)
 
