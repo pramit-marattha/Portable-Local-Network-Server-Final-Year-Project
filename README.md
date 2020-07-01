@@ -53,7 +53,7 @@ website Mockups                    |  Raspberry pi server mockups
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (70)](https://user-images.githubusercontent.com/37651620/86200142-a4e40580-bb7b-11ea-9d16-c0e16b61be82.png)          |  ![Screenshot (71)](https://user-images.githubusercontent.com/37651620/86200136-a31a4200-bb7b-11ea-9a20-1c1666abdf09.png)
 
-Arduino circuit diagram mockups                           |  Product Development:Front-End ”Login-page” 
+Arduino circuit diagram mockups                           |  Product Development:Front-End ”Login-page” 
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (72)](https://user-images.githubusercontent.com/37651620/86200133-a1e91500-bb7b-11ea-9856-d82481120a6b.png)   |  ![Screenshot (73)](https://user-images.githubusercontent.com/37651620/86200130-a1507e80-bb7b-11ea-964f-de97a35fe741.png)
 
@@ -61,16 +61,16 @@ Register                              |  Home-Page
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (74)](https://user-images.githubusercontent.com/37651620/86200123-9f86bb00-bb7b-11ea-8895-f825582cc908.png) |  ![Screenshot (75)](https://user-images.githubusercontent.com/37651620/86200120-9dbcf780-bb7b-11ea-80c1-56f4eeea9e60.png)
 
-Back End                              |  Product Development:“Users” Database Tables on db.Sqlite3  
+Back End                              |  Product Development:“Users” Database Tables on db.Sqlite3  
 :-------------------------------------------------:|:-------------------------------------------------:
 ![Screenshot (76)](https://user-images.githubusercontent.com/37651620/86200119-9bf33400-bb7b-11ea-8d87-1d578ff21c3c.png)   |  ![Screenshot (77)](https://user-images.githubusercontent.com/37651620/86200118-9b5a9d80-bb7b-11ea-9471-0e99f87372c2.png)
 
 
-Product Development: “Posts” Database Tables on db.Sqlite3                                                |  Final Product   
-:-------------------------------------------------:|:-------------------------------------------------:
- ![Screenshot (79)](https://user-images.githubusercontent.com/37651620/86200114-9990da00-bb7b-11ea-8bea-21c1d7e87240.png)    |  ![Screenshot (80)](https://user-images.githubusercontent.com/37651620/86200110-95fd5300-bb7b-11ea-9216-4edde45555aa.png)
+Product Development:“Users” Database Tables on db.Sqlite3  | Product Development: “Posts” Database Tables on db.Sqlite3                       
+-----------------------------------------------------------:|:-------------------------------------------------:
+   ![Screenshot (78)](https://user-images.githubusercontent.com/37651620/86200116-9ac20700-bb7b-11ea-9a72-9594eaae5630.png) |  ![Screenshot (79)](https://user-images.githubusercontent.com/37651620/86200114-9990da00-bb7b-11ea-8bea-21c1d7e87240.png)     
  
- Final Product                        |  
-:-------------------------------------------------:|
-![Screenshot (81)](https://user-images.githubusercontent.com/37651620/86200112-97c71680-bb7b-11ea-8a9a-5c1c728eee33.png) 
+ Final Product | Final Product                        
+:--------|:-------------------------------------------------:
+ ![Screenshot (80)](https://user-images.githubusercontent.com/37651620/86200110-95fd5300-bb7b-11ea-9216-4edde45555aa.png)  | ![Screenshot (81)](https://user-images.githubusercontent.com/37651620/86200112-97c71680-bb7b-11ea-8a9a-5c1c728eee33.png) 
       
